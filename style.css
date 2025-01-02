@@ -1,5 +1,8 @@
 *{
-    font-family: 'Bahnschrift';
+    /* font-family: 'Bahnschrift'; */
+    /* font-family: "Oswald", serif; */
+    font-family: "Barlow Condensed", serif;
+    font-weight: 400;
     margin: 0;
     padding: 0;
 }
@@ -15,12 +18,13 @@ html, body{
     /* border: 2px solid red; */
     align-items: center;
     h1{
+        font-weight: 600;
         font-size: 6vmin;
         text-transform: uppercase;
     }
     
     a{
-        font-weight: 500;
+        /* font-weight: 500; */
         color: rgb(42, 41, 41);
         font-size: 2.8vmin;
         text-decoration: none;
@@ -50,6 +54,7 @@ html, body{
     flex-direction: column;
     /* border: 2px solid red; */
     h2{
+        font-weight: 600;
         font-size: min(23px, 4vmin);
         padding: 2px 5px;
         text-transform: uppercase;
@@ -62,6 +67,7 @@ html, body{
     flex-direction: column;
     padding: .75rem .5rem;
     h3{
+        font-weight: 500;
         text-transform: uppercase;
         font-size: min(20px, 3.5vmin);
     }
@@ -75,8 +81,10 @@ html, body{
 
 .link{
     padding: .25rem .5rem;
-    font-weight: 500;
     font-size: min(18px, 3vmin);
+    & > *{
+        font-weight: 500;
+    }
     a{
         text-decoration: none;
         color: rgb(140, 140, 140);
@@ -89,6 +97,7 @@ html, body{
     padding: .75rem .5rem;
 
     h3{
+        font-weight: 500;
         font-size: min(20px, 3.5vmin);
     }
 
@@ -127,7 +136,7 @@ html, body{
     & > a{
         text-decoration: none;
         color: black;
-        font-weight: 700;
+        font-weight: 500;
         font-size: min(20px, 3.5vmin);
     }
 }
@@ -138,6 +147,7 @@ html, body{
     padding: .25rem .5rem;
 
     h3{
+        font-weight: 500;
         font-size: min(20px, 3.5vmin);
     }
 
